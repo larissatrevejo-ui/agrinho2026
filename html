@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AgroTech Nexus</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="bg"></div>
+
+  <header>
+
+    <div class="logo">
+      🌱 AGROTECH NEXUS
+    </div>
+
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#scanner">Scanner</a>
+      <a href="#dados">Dados</a>
+      <a href="#sustentabilidade">Sustentabilidade</a>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+
+      <div class="texto">
+
+        <h1>
+          Agro Forte,<br>
+          Futuro Sustentável
+        </h1>
+
+        <p>
+          Tecnologia inteligente para monitoramento agrícola
+          e preservação ambiental.
+        </p>
+
+        <button onclick="iniciarScanner()">
+          INICIAR ANÁLISE
+        </button>
+
+      </div>
+
+      <div class="scanner-box" id="scanner">
+
+        <div class="scan-line"></div>
+
+        <div class="scanner-grid"></div>
+
+      </div>
+
+    </section>
+
+    <section class="painel" id="dados">
+
+      <div class="card">
+        <h2>🌡️ Umidade</h2>
+        <p id="umidade">--%</p>
+      </div>
+
+      <div class="card">
+        <h2>🧪 pH do Solo</h2>
+        <p id="ph">--</p>
+      </div>
+
+      <div class="card">
+        <h2>🌱 Status</h2>
+        <p id="status">Aguardando análise...</p>
+      </div>
+
+    </section>
+
+    <section class="sustentabilidade" id="sustentabilidade">
+
+      <h2>Sustentabilidade Inteligente</h2>
+
+      <div class="cards-info">
+
+        <div class="info">
+          ♻️ Redução de desperdícios
+        </div>
+
+        <div class="info">
+          💧 Economia de água
+        </div>
+
+        <div class="info">
+          🌍 Preservação ambiental
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
